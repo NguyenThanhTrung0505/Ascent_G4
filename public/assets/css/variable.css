@@ -1,0 +1,45 @@
+:root {
+    /* Background colors */
+    --bg-white: #fff;
+    --bg-black: black;
+    --bg-orange: #f7941e;
+    --bg-red: #ed145b;
+    --bg-green: #73be48;
+    --bg-blue: #1cbbb4;
+    --bg-bold-blue: #0a6375;
+    --bg-warm: #fff0e5;
+    --bg-foreground: #686868;
+    --bg-primary: var(--bg-blue);
+
+    /* Text colors */
+    --text-orange: #f7941e;
+    --text-white: #fff;
+    --text-red: #ed145b;
+    --text-blue: #1cbbb4;
+    --text-green: #73be48;
+    --text-foreground: #686868;
+    --text-black: black;
+
+    /* Font sizes */
+    --fs-base: 16px;
+    --fs-xs: 18px;
+    --fs-sm: 20px;
+    --fs-md: 24px;
+    --fs-lg: 30px;
+    --fs-xl: 32px;
+    --fs-xxl: 70px;
+
+    /* Font weights */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+
+    /* Font families */
+    --ff-nunito: "Nunito", sans-serif;
+    --ff-jost: "Jost", sans-serif;
+    --ff-bubblegum: "Bubblegum Sans", sans-serif;
+}
