@@ -175,7 +175,7 @@
                                                 <a
                                                     href=""
                                                     class="menu-item">
-                                                    Portfolio
+                                                    teacher-func
                                                 </a>
                                             </li>
                                             <li>
@@ -288,315 +288,73 @@
             </div>
         </div>
     </section>
-    <!-- PORTFOLIO -->
-    <section class="portfolio py-5">
+    <!-- TEACHER FUNC -->
+    <section class="teacher-func">
         <div class="container">
-            <div class="portfolio-content">
+            <div class="teacher-func-content">
                 <div class="title">
-                    <p class="header-title-p wow animate__fadeInUp">
-                        Latest Portfolio
+                    <p class="header-title-p">
+                        Không gian làm việc của giáo viên
                     </p>
                     <h2
-                        class="header-title-h2 wow animate__fadeInUp"
-                        data-wow-delay=".3s"
-                        data-wow-duration="2s">
-                        Exploring Minds Elementary School <br />
-                        Education the only school
+                        class="header-title-h2">
+                        Tối ưu hóa việc giảng dạy và <br />
+                        quản lý lớp học
                     </h2>
                 </div>
                 <div class="tab">
-                    <nav>
-                        <div
-                            class="nav nav-tabs py-4"
-                            id="nav-tab"
-                            role="tablist">
-                            <button
-                                class="nav-link active"
-                                id="nav-education-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-education"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-education"
-                                aria-selected="true">
-                                Education
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-school-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-school"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-school"
-                                aria-selected="false">
-                                School
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-learn-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-learn"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-learn"
-                                aria-selected="false">
-                                Learn
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-child-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-child"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-child"
-                                aria-selected="false">
-                                Child
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-coaching-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-coaching"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-coaching"
-                                aria-selected="false">
-                                Coaching
-                            </button>
-                        </div>
-                    </nav>
-                    <div class="tab-content pt-5" id="nav-tabContent">
+                    <div class="tab-content" id="nav-tabContent">
                         <div
                             class="tab-pane fade show active"
-                            id="nav-education"
-                            role="tabpanel"
-                            aria-labelledby="nav-education-tab"
-                            tabindex="0">
+                            id="nav-education">
                             <div>
                                 <img
-                                    src="./img/portfolio/portfolio-1.png"
+                                    src="../../../public/assets/images/home/create-topic.png"
+                                    style="object-fit: contain;"
                                     alt="" />
                                 <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
+                                    <a href="">Soạn bài đơn giản</a>
+                                    <p style="text-align: center;">Tích hợp công cụ soạn thảo, upload tài liệu và tạo bài giảng nhanh chóng</p>
                                     <a href=""></a>
                                 </div>
                             </div>
                             <div>
                                 <img
-                                    src="./img/portfolio/portfolio-2.png"
+                                    src="../../../public/assets/images/home/teacher-list.png"
                                     alt="" />
                                 <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
+                                    <a href="">Quản lý dễ dàng</a>
+                                    <p style="text-align: center;">Quản lý danh sách các chương, đề thi trực quan</p>
                                     <a href=""></a>
                                 </div>
                             </div>
                             <div>
                                 <img
-                                    src="./img/portfolio/portfolio-3.png"
+                                    src="../../../public/assets/images/home/ManyClass-teacher.png"
                                     alt="" />
                                 <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
+                                    <a href="">Quản lý đa lớp học</a>
+                                    <p style="text-align: center;">Điều phối và sắp xếp lịch trình giảng dạy nhiều lớp học cùng lúc hiệu quả</p>
                                     <a href=""></a>
                                 </div>
                             </div>
                             <div>
                                 <img
-                                    src="./img/portfolio/portfolio-5.png"
+                                    src="../../../public/assets/images/home/Dashboard-teacher.png"
                                     alt="" />
                                 <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
+                                    <a href="">Bảng điều khiển</a>
+                                    <p style="text-align: center;">Thao tác đơn giản, nhanh chóng hiện đại</p>
                                     <a href=""></a>
                                 </div>
                             </div>
                             <div>
                                 <img
-                                    src="./img/portfolio/portfolio-6.png"
+                                    src="../../../public/assets/images/home/Class-teacher.png"
                                     alt="" />
                                 <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="tab-pane fade"
-                            id="nav-school"
-                            role="tabpanel"
-                            aria-labelledby="nav-school-tab"
-                            tabindex="0">
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-1.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-2.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-3.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-5.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="tab-pane fade"
-                            id="nav-learn"
-                            role="tabpanel"
-                            aria-labelledby="nav-learn-tab"
-                            tabindex="0">
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-3.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-5.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="tab-pane fade"
-                            id="nav-child"
-                            role="tabpanel"
-                            aria-labelledby="nav-child-tab"
-                            tabindex="0">
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-1.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-2.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="tab-pane fade"
-                            id="nav-coaching"
-                            role="tabpanel"
-                            aria-labelledby="nav-coaching-tab"
-                            tabindex="0">
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-1.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-2.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-3.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-5.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    src="./img/portfolio/portfolio-6.png"
-                                    alt="" />
-                                <div class="card-text">
-                                    <a href="">Exploring Minds Elementary Best
-                                        School</a>
-                                    <p>Dreamland Elementary</p>
+                                    <a href="">Không gian lớp học</a>
+                                    <p style="text-align: center;">Quản lý sĩ số, giao bài tập và tương tác lớp học</p>
                                     <a href=""></a>
                                 </div>
                             </div>
@@ -606,145 +364,102 @@
             </div>
         </div>
     </section>
-    <!-- ABOUT -->
-    <section class="about py-5">
+    <!-- TAKE EXAM -->
+    <section class="take-exam">
         <div class="container">
-            <div
-                class="about-content d-flex justify-content-between px-4 flex-wrap flex-xxl-nowrap">
-                <div class="content-left d-flex gap-4 align-items-end">
+            <div class="take-exam-content">
+                <div class="content-left">
                     <div
-                        class="img wow animate__fadeInUp"
-                        data-wow-delay=".3s"
-                        data-wow-duration="2s">
-                        <img src="./img/shapes/shap-1.png" alt="" />
-                        <img src="./img/about/about-1.png" alt="" />
-                    </div>
-                    <div class="list-card">
-                        <div
-                            class="card d-flex flex-column justify-content-center align-items-center">
-                            <img
-                                src="./img/shapes/icreement.png"
-                                alt=""
-                                width="46px"
-                                height="46px" />
-                            <h3>Academy</h3>
-                            <p>Learning Ladder School</p>
-                        </div>
-                        <div class="card mt-4">
-                            <h3>10+</h3>
-                            <p>Learning Ladder School</p>
-                        </div>
+                        class="img">
+                        <img src="../../../public/assets/images/home/shap-1.png" alt="" />
+                        <img src="../../../public/assets/images/home/take-exam-student.png" alt="" />
                     </div>
                 </div>
                 <div class="content-right">
-                    <p class="header-title-p wow animate__fadeInUp">
-                        About Us
+                    <p class="header-title-p">
+                        Kiểm tra trực tuyến
                     </p>
                     <h2
-                        class="header-title-h2 wow animate__fadeInUp"
-                        data-wow-delay=".3s"
-                        data-wow-duration="2s">
-                        Unlocking Potential, One <br />
-                        Child at a just Time in school
+                        class="header-title-h2">
+                        Đánh giá năng lực chính xác,
+                        thao tác mượt mà
                     </h2>
                     <p
-                        class="p mt-4 wow animate__fadeInUp"
-                        data-wow-delay=".3s"
-                        data-wow-duration="2s">
-                        Lorem ipsum dolor sit amet consectetur. Amet lectus
-                        mi <br />
-                        ultricies dictum facilisis sem. Imperdiet massa
-                        turpis sit proin <br />
-                        metus volutpat loren ipsum Lorem ipsum dolor sit
-                        amet <br />
-                        consectetur. Amet lectus mi ultricies dictum
+                        class="p" style="margin-top: 1rem;">
+                        Môi trường làm bài thi hiện đại với thiết kế tinh gọn. Hệ thống tích hợp đồng hồ đếm ngược, danh sách điều hướng câu hỏi thông minh và tính năng nộp bài tự động, giúp tối ưu hóa quá trình kiểm tra.
                     </p>
-                    <button class="mt-4">Get a quote</button>
+                    <button>Bắt đầu ngay</button>
+                    <img
+                        src="../../../public/assets/images/home/pencil-rocket.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </section>
-    <!-- BLOG -->
-    <section class="blog">
+    <!-- STUDENT FUNC -->
+    <section class="student-func">
         <div class="container">
-            <div class="blog__heading">
-                <span class="blog__subtitle wow animate__fadeInUp">Latest Blog And News</span>
+            <div class="student-func-heading">
+                <span class="header-title-p">Tính năng dành cho học sinh</span>
 
                 <h2
-                    class="blog__title animate__animated animate__fadeInUp animate__slow">
-                    Wonderworks Child Development Center
-                    <br />
-                    Discovery Kids Preschool
+                    class="header-title-h2">
+                    Tối ưu hóa trải nghiệm học tập với hệ thống quản lý thông minh
                 </h2>
             </div>
 
-            <div class="row g-4">
+            <div class="student-cards">
                 <!-- LEFT -->
-                <div
-                    class="col-lg-7 animate__animated animate__fadeInUp animate__slow">
-                    <article class="blog-card blog-card--horizontal mb-4">
-                        <div class="blog-card__image">
-                            <img src="./img/blog/blog-1.png" alt="" />
+                <div class="student-cards-left">
+                    <div class="student-func-card student-func-card--horizontal">
+                        <div class="student-func-card-image">
+                            <img src="../../../public/assets/images/home/topic-student.png" alt="" />
                         </div>
 
-                        <div class="blog-card__content">
-                            <div class="blog-card__meta">
-                                <span>October 19, 2023</span>
-                                <span>By admin</span>
-                            </div>
-
-                            <h3 class="blog-card__title">
-                                Empowering Children Through Education the a
-                                Igniting
+                        <div class="student-func-card-content">
+                            <h3 class="student-func-card-title">
+                                Quản lý dễ dàng
                             </h3>
-
-                            <a href="#">Read More</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card blog-card--horizontal">
-                        <div class="blog-card__image">
-                            <img src="./img/blog/blog-2.png" alt="" />
-                        </div>
-
-                        <div class="blog-card__content">
-                            <div class="blog-card__meta">
-                                <span>October 19, 2023</span>
-                                <span>By admin</span>
+                            <div class="student-func-card-meta">
+                                <span>Quản lý danh sách các chương, đề thi một cách trực quan và hiệu quả.</span>
                             </div>
-
-                            <h3 class="blog-card__title">
-                                Empowering Children Through Education the a
-                                Igniting
-                            </h3>
-
-                            <a href="#">Read More</a>
                         </div>
-                    </article>
+                    </div>
+
+                    <div class="student-func-card student-func-card--horizontal">
+                        <div class="student-func-card-image">
+                            <img src="../../../public/assets/images/home/class-student.png" alt="" />
+                        </div>
+
+                        <div class="student-func-card-content">
+
+                            <h3 class="student-func-card-title">
+                                Lộ trình học rõ ràng
+                            </h3>
+                            <div class="student-func-card-meta">
+                                <span>Theo dõi tiến độ bài học và kết quả kiểm tra chi tiết theo từng môn học.</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- RIGHT -->
-                <div class="col-lg-5">
-                    <article
-                        class="blog-card blog-card--vertical animate__animated animate__fadeInUp animate__slow">
-                        <div class="blog-card__image">
-                            <img src="./img/blog/blog-3.png" alt="" />
+                <div class="student-cards-right">
+                    <div
+                        class="student-func-card student-func-card--horizontal">
+                        <div class="student-func-card-image">
+                            <img src="../../../public/assets/images/home/dashboard-student.png" alt="" />
                         </div>
 
-                        <div class="blog-card__content">
-                            <div class="blog-card__meta">
-                                <span>October 19, 2023</span>
-                                <span>By admin</span>
-                            </div>
-
-                            <h3 class="blog-card__title">
-                                Empowering Children Through Education the a
-                                Igniting
+                        <div class="student-func-card-content">
+                            <h3 class="student-func-card-title">
+                                Bảng điều khiển trung tâm
                             </h3>
-
-                            <a href="#">Read More</a>
+                            <div class="student-func-card-meta">
+                                <span>Tổng hợp mọi nhiệm vụ học tập, hạn nộp bài và đánh giá năng lực ngay trên một màn hình duy nhất, giúp học sinh chủ động thời gian.</span>
+                            </div>
                         </div>
-                    </article>
+                    </div>
                 </div>
             </div>
         </div>
