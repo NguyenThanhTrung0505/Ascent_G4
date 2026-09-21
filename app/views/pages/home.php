@@ -12,13 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet" />
     <!-- Css -->
-    <link rel="stylesheet" href="../../../public/assets/css/reset.css">
-    <link rel="stylesheet" href="../../../public/assets/css/home.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/reset.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/home.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header id="header">
         <div class="header-top">
             <div class="container header-container">
                 <div class="header-info">
@@ -51,7 +51,7 @@
                 class="container header-bottom-container">
                 <a href="" class="header-brand">
                     <img
-                        src="../../../public/assets/images/header/logo.png"
+                        src="<?= BASE_URL ?>/assets/images/header/logo.png"
                         alt=""
                         width="40px"
                         height="40px" />
@@ -69,20 +69,26 @@
                                         <a
                                             class="nav-link active"
                                             aria-current="page"
-                                            href="#">Home</a>
+                                            href="#header">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#">Giáo viên</a>
                                         <ul class="nav-menu">
                                             <li>
                                                 <a
-                                                    href=""
+                                                    href="#create-exam"
                                                     class="menu-item">
-                                                    Home-1
+                                                    Soạn đề
                                                 </a>
                                             </li>
                                             <li>
                                                 <a
-                                                    href=""
+                                                    href="#teacher-func"
                                                     class="menu-item">
-                                                    Home-2
+                                                    Không gian làm việc
                                                 </a>
                                             </li>
                                         </ul>
@@ -91,26 +97,21 @@
                                         <a
                                             class="nav-link active"
                                             aria-current="page"
-                                            href="#">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link active"
-                                            aria-current="page"
-                                            href="#">Services</a>
+                                            href="#">Học sinh</a>
                                         <ul class="nav-menu">
                                             <li>
                                                 <a
-                                                    href=""
+                                                    href="#take-exam"
                                                     class="menu-item">
-                                                    Services
+
+                                                    Bài kiểm tra
                                                 </a>
                                             </li>
                                             <li>
                                                 <a
-                                                    href=""
+                                                    href="#student-func"
                                                     class="menu-item">
-                                                    Service Details
+                                                    Tính năng
                                                 </a>
                                             </li>
                                         </ul>
@@ -119,82 +120,10 @@
                                         <a
                                             class="nav-link active"
                                             aria-current="page"
-                                            href="#">Blog</a>
-                                        <ul class="nav-menu">
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    Blog
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    Blog Details
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link active"
-                                            aria-current="page"
-                                            href="#">Page</a>
-                                        <ul class="nav-menu">
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    About
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    Services
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    Service Details
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    Faq
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    teacher-func
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href=""
-                                                    class="menu-item">
-                                                    Contact
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link active"
-                                            aria-current="page"
-                                            href="#">Contact Us</a>
+                                            href="#team">Dành cho</a>
                                     </li>
                                 </ul>
-                                <a href="" class="btn btn-header">
+                                <a href="index.php?page=auth&action=login" class="btn btn-header">
                                     Đăng nhập
                                 </a>
                             </div>
@@ -205,22 +134,22 @@
         </div>
     </header>
     <!-- BANNER -->
-    <section class="banner">
+    <section class="banner" id="banner">
         <div class="container">
             <div
                 class="banner-img-circle">
-                <img src="../../../public/assets/images/home/left-circle-1.png" alt="" />
-                <img src="../../../public/assets/images/home/left-circle-2.png" alt="" />
+                <img src="<?= BASE_URL ?>/assets/images/home/left-circle-1.png" alt="" />
+                <img src="<?= BASE_URL ?>/assets/images/home/left-circle-2.png" alt="" />
             </div>
             <div
                 class="banner-content">
                 <div class="banner-content-left-pic">
-                    <img src="../../../public/assets/images/home/boy_img_1.png" alt="" />
+                    <img src="<?= BASE_URL ?>/assets/images/home/boy_img_1.png" alt="" />
                 </div>
                 <div
                     class="banner-text">
                     <h1>
-                        <img src="../../../public/assets/images/home/shap-1.png" alt="" />
+                        <img src="<?= BASE_URL ?>/assets/images/home/shap-1.png" alt="" />
                         <span>Giao Bài Tập Và Chấm Thi</span>
                         <br />
                         <span>Tự Động</span>
@@ -231,42 +160,42 @@
                         <br />
                         chấm điểm tự động nhanh chóng, chính xác
                     </p>
-                    <a href="">Bắt đầu miễn phí</a>
+                    <a href="index.php?page=auth&action=register">Bắt đầu miễn phí</a>
                 </div>
                 <div
                     class="banner-content-three-start">
                     <img
-                        src="../../../public/assets/images/home/shap.png"
+                        src="<?= BASE_URL ?>/assets/images/home/shap.png"
                         alt=""
                         width="auto"
                         height="50px" />
                     <img
-                        src="../../../public/assets/images/home/shap.png"
+                        src="<?= BASE_URL ?>/assets/images/home/shap.png"
                         alt=""
                         width="auto"
                         height="60px" />
                     <img
-                        src="../../../public/assets/images/home/shap.png"
+                        src="<?= BASE_URL ?>/assets/images/home/shap.png"
                         alt=""
                         width="auto"
                         height="30px" />
                 </div>
                 <img
-                    src="../../../public/assets/images/home/painting.png"
+                    src="<?= BASE_URL ?>/assets/images/home/painting.png"
                     alt=""
                     width="auto"
                     height="100%" />
                 <div class="banner-content-right-boy">
-                    <img src="../../../public/assets/images/home/boy_img_2.png" alt="" />
+                    <img src="<?= BASE_URL ?>/assets/images/home/boy_img_2.png" alt="" />
                 </div>
             </div>
             <div class="banner-right-circle">
-                <img src="../../../public/assets/images/home/right-circle.png" alt="" />
+                <img src="<?= BASE_URL ?>/assets/images/home/right-circle.png" alt="" />
             </div>
         </div>
     </section>
     <!-- CREATE-EXAM -->
-    <section class="create-exam">
+    <section class="create-exam" id="create-exam">
         <div class="container">
             <div
                 class="create-exam-content">
@@ -279,17 +208,17 @@
                     <p>
                         Đơn giản hóa quy trình tạo đề trắc nghiệm với giao diện trực quan. Dễ dàng thiết lập thời gian làm bài, cấu hình số lượt thi, thêm lời giải thích chi tiết và phân loại theo từng lớp học, chương học một cách khoa học.
                     </p>
-                    <button>Bắt đầu ngay</button>
+                    <button><a href="index.php?page=auth&action=register">Bắt đầu ngay</a></button>
                 </div>
                 <div
                     class="right-content">
-                    <img src="../../../public/assets/images/home/CreateQuestion-teacher.png" alt="">
+                    <img src="<?= BASE_URL ?>/assets/images/home/CreateQuestion-teacher.png" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!-- TEACHER FUNC -->
-    <section class="teacher-func">
+    <section class="teacher-func" id="teacher-func">
         <div class="container">
             <div class="teacher-func-content">
                 <div class="title">
@@ -309,7 +238,7 @@
                             id="nav-education">
                             <div>
                                 <img
-                                    src="../../../public/assets/images/home/create-topic.png"
+                                    src="<?= BASE_URL ?>/assets/images/home/create-topic.png"
                                     style="object-fit: contain;"
                                     alt="" />
                                 <div class="card-text">
@@ -320,7 +249,7 @@
                             </div>
                             <div>
                                 <img
-                                    src="../../../public/assets/images/home/teacher-list.png"
+                                    src="<?= BASE_URL ?>/assets/images/home/teacher-list.png"
                                     alt="" />
                                 <div class="card-text">
                                     <a href="">Quản lý dễ dàng</a>
@@ -330,7 +259,7 @@
                             </div>
                             <div>
                                 <img
-                                    src="../../../public/assets/images/home/ManyClass-teacher.png"
+                                    src="<?= BASE_URL ?>/assets/images/home/ManyClass-teacher.png"
                                     alt="" />
                                 <div class="card-text">
                                     <a href="">Quản lý đa lớp học</a>
@@ -340,7 +269,7 @@
                             </div>
                             <div>
                                 <img
-                                    src="../../../public/assets/images/home/Dashboard-teacher.png"
+                                    src="<?= BASE_URL ?>/assets/images/home/Dashboard-teacher.png"
                                     alt="" />
                                 <div class="card-text">
                                     <a href="">Bảng điều khiển</a>
@@ -350,7 +279,7 @@
                             </div>
                             <div>
                                 <img
-                                    src="../../../public/assets/images/home/Class-teacher.png"
+                                    src="<?= BASE_URL ?>/assets/images/home/Class-teacher.png"
                                     alt="" />
                                 <div class="card-text">
                                     <a href="">Không gian lớp học</a>
@@ -365,14 +294,14 @@
         </div>
     </section>
     <!-- TAKE EXAM -->
-    <section class="take-exam">
+    <section class="take-exam" id="take-exam">
         <div class="container">
             <div class="take-exam-content">
                 <div class="content-left">
                     <div
                         class="img">
-                        <img src="../../../public/assets/images/home/shap-1.png" alt="" />
-                        <img src="../../../public/assets/images/home/take-exam-student.png" alt="" />
+                        <img src="<?= BASE_URL ?>/assets/images/home/shap-1.png" alt="" />
+                        <img src="<?= BASE_URL ?>/assets/images/home/take-exam-student.png" alt="" />
                     </div>
                 </div>
                 <div class="content-right">
@@ -388,16 +317,16 @@
                         class="p" style="margin-top: 1rem;">
                         Môi trường làm bài thi hiện đại với thiết kế tinh gọn. Hệ thống tích hợp đồng hồ đếm ngược, danh sách điều hướng câu hỏi thông minh và tính năng nộp bài tự động, giúp tối ưu hóa quá trình kiểm tra.
                     </p>
-                    <button>Bắt đầu ngay</button>
+                    <button><a href="index.php?page=auth&action=register">Bắt đầu ngay</a></button>
                     <img
-                        src="../../../public/assets/images/home/pencil-rocket.png"
+                        src="<?= BASE_URL ?>/assets/images/home/pencil-rocket.png"
                         alt="" />
                 </div>
             </div>
         </div>
     </section>
     <!-- STUDENT FUNC -->
-    <section class="student-func">
+    <section class="student-func" id="student-func">
         <div class="container">
             <div class="student-func-heading">
                 <span class="header-title-p">Tính năng dành cho học sinh</span>
@@ -413,7 +342,7 @@
                 <div class="student-cards-left">
                     <div class="student-func-card student-func-card--horizontal">
                         <div class="student-func-card-image">
-                            <img src="../../../public/assets/images/home/topic-student.png" alt="" />
+                            <img src="<?= BASE_URL ?>/assets/images/home/topic-student.png" alt="" />
                         </div>
 
                         <div class="student-func-card-content">
@@ -428,7 +357,7 @@
 
                     <div class="student-func-card student-func-card--horizontal">
                         <div class="student-func-card-image">
-                            <img src="../../../public/assets/images/home/class-student.png" alt="" />
+                            <img src="<?= BASE_URL ?>/assets/images/home/class-student.png" alt="" />
                         </div>
 
                         <div class="student-func-card-content">
@@ -448,7 +377,7 @@
                     <div
                         class="student-func-card student-func-card--horizontal">
                         <div class="student-func-card-image">
-                            <img src="../../../public/assets/images/home/dashboard-student.png" alt="" />
+                            <img src="<?= BASE_URL ?>/assets/images/home/dashboard-student.png" alt="" />
                         </div>
 
                         <div class="student-func-card-content">
@@ -465,7 +394,7 @@
         </div>
     </section>
     <!-- TEAM -->
-    <section class="team">
+    <section class="team" id="team">
         <div class="container">
             <div class="team-heading">
                 <span class="team-tag">
@@ -480,7 +409,7 @@
                 <div class="team-item">
                     <div class="team-img">
                         <img
-                            src="../../../public/assets/images/home/actor_1.png"
+                            src="<?= BASE_URL ?>/assets/images/home/actor_1.png"
                             alt="" />
                     </div>
                     <div class="team-content">
@@ -500,7 +429,7 @@
                 <div class="team-item">
                     <div class="team-img">
                         <img
-                            src="../../../public/assets/images/home/actor_3.png"
+                            src="<?= BASE_URL ?>/assets/images/home/actor_3.png"
                             class="img-fluid w-100"
                             alt="" />
                     </div>
@@ -521,7 +450,7 @@
                 <div class="team-item">
                     <div class="team-img">
                         <img
-                            src="../../../public/assets/images/home/actor_5.png"
+                            src="<?= BASE_URL ?>/assets/images/home/actor_5.png"
                             class="img-fluid w-100"
                             alt="" />
                     </div>
@@ -543,7 +472,6 @@
             </div>
         </div>
     </section>
-
     <!-- FOOTER -->
     <footer class="site-footer">
         <div class="container">
@@ -551,7 +479,7 @@
                 <div class="footer-col brand-col">
                     <h3 class="footer-logo">
                         <img
-                            src="../../../public/assets/images/header/logo.png"
+                            src="<?= BASE_URL ?>/assets/images/header/logo.png"
                             alt=""
                             width="40px"
                             height="40px" /><span>Ascent</span>
@@ -568,19 +496,20 @@
                 <div class="footer-col">
                     <h4 class="footer-title">Khám Phá</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Trang chủ</a></li>
-                        <li><a href="#">Tính năng ra đề</a></li>
-                        <li><a href="#">Ngân hàng câu hỏi</a></li>
-                        <li><a href="#">Bảng giá dịch vụ</a></li>
+                        <li><a href="#header">Trang chủ</a></li>
+                        <li><a href="#create-exam">Tính năng ra đề</a></li>
+                        <li><a href="#teacher-func">Không gian làm việc</a></li>
+                        <li><a href="#take-exam">Bài kiểm tra</a></li>
+                        <li><a href="#student-func">Tính năng của học sinh</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4 class="footer-title">Giải Pháp</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Dành cho giáo viên</a></li>
-                        <li><a href="#">Dành cho học sinh</a></li>
-                        <li><a href="#">Khối trường học</a></li>
-                        <li><a href="#">Hỗ trợ kỹ thuật</a></li>
+                        <li><a href="#team">Dành cho học sinh</a></li>
+                        <li><a href="#team">Dành cho giáo viên</a></li>
+                        <li><a href="#team">Khối trường học</a></li>
+                        <li><a href="#team">Doanh nghiệp</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -597,6 +526,7 @@
             </div>
         </div>
     </footer>
+    <script src="<?= BASE_URL ?>/assets/js/home.js"></script>
 </body>
 
 </html>

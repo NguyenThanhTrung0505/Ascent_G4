@@ -9,6 +9,7 @@
     --bg-bold-blue: #0a6375;
     --bg-warm: #fff0e5;
     --bg-foreground: #686868;
+    --bg-all: #fafafa;
     --bg-primary: var(--bg-blue);
 
     /* Text colors */
@@ -19,6 +20,8 @@
     --text-green: #73be48;
     --text-foreground: #686868;
     --text-black: black;
+    /* border */
+    --color-border: #d9d9d9;
 
     /* Font sizes */
     --fs-base: 16px;
@@ -37,6 +40,12 @@
     --fw-700: 700;
     --fw-800: 800;
     --fw-900: 900;
+
+    /* radius */
+    --radius-pill: 5px;
+    --radius-sm: 8px;
+    --radius-md: 10px;
+    --radius-lg: 15px;
 
     /* Font families */
     --ff-nunito: "Nunito", sans-serif;

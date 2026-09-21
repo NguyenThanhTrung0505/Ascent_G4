@@ -1,5 +1,7 @@
 @import url("./variable.css");
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
@@ -182,6 +184,13 @@ header .header-bottom {
     z-index: 99;
     background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+header .header-bottom.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 header .header-bottom .header-bottom-container {

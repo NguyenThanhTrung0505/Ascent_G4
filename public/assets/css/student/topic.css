@@ -1,0 +1,237 @@
+@import url("../variable.css");
+@import url("../reset.css");
+
+body {
+    font-family: var(--ff-nunito);
+    background: var(--bg-white);
+    color: var(--text-black);
+    min-height: 100vh;
+}
+
+.data-mode-banner {
+    max-width: 900px;
+    margin: 16px auto 0;
+    padding: 0 40px;
+}
+.banner-inner {
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 13.5px;
+    font-weight: var(--fw-600);
+}
+.banner-demo {
+    background: var(--bg-warm);
+    color: var(--bg-orange);
+    border: 1px solid #fed7aa;
+}
+.banner-real {
+    background: #ecfdf5;
+    color: var(--bg-green);
+    border: 1px solid #bbf7d0;
+}
+
+.page-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 40px 60px;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-foreground);
+    font-size: 14.5px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.breadcrumb:hover {
+    color: var(--text-black);
+}
+
+.chapter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 26px;
+}
+
+h1.chapter-title {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-700);
+    margin-bottom: 6px;
+}
+.chapter-sub {
+    color: var(--text-foreground);
+    font-size: 15px;
+}
+
+.progress-note {
+    font-size: 14.5px;
+    color: var(--text-foreground);
+    text-align: right;
+}
+.progress-note strong {
+    color: var(--bg-bold-blue);
+    font-weight: var(--fw-700);
+}
+
+h2.section-title {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-700);
+    margin-bottom: 18px;
+}
+
+.lesson-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.lesson-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    position: relative;
+}
+
+.lesson-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-xs);
+    flex-shrink: 0;
+}
+
+.lesson-icon.done {
+    background: var(--bg-green);
+    color: var(--text-white);
+}
+.lesson-icon.pending {
+    background: #f3f4f6;
+    color: var(--text-foreground);
+}
+
+.lesson-info {
+    flex: 1;
+    min-width: 0;
+}
+.lesson-title {
+    font-size: var(--fs-base);
+    font-weight: var(--fw-600);
+    margin-bottom: 3px;
+}
+.lesson-desc {
+    font-size: 14px;
+    color: var(--text-foreground);
+}
+
+.lesson-status {
+    padding: 7px 18px;
+    border-radius: 999px;
+    font-size: 13.5px;
+    font-weight: var(--fw-700);
+    white-space: nowrap;
+}
+
+.lesson-status.done {
+    background: #dcfce7;
+    color: var(--bg-green);
+}
+.lesson-status.pending {
+    background: var(--bg-orange);
+    color: var(--text-white);
+}
+
+.more-btn {
+    font-size: var(--fs-sm);
+    color: var(--text-foreground);
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.more-btn:hover {
+    background: #f3f4f6;
+}
+
+.more-menu {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 54px;
+    background: var(--bg-white);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    z-index: 10;
+    min-width: 190px;
+}
+
+.more-menu.show {
+    display: block;
+}
+
+.more-menu button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 12px 16px;
+    background: var(--bg-white);
+    font-size: 14px;
+    color: var(--text-black);
+}
+
+.more-menu button:hover {
+    background: #f3f4f6;
+}
+.more-menu button.active-option {
+    color: var(--bg-bold-blue);
+    font-weight: var(--fw-600);
+}
+
+/* ---------- TABLET: 768px đến 1024px ---------- */
+@media (max-width: 1024px) {
+    .page-wrap {
+        padding: 22px 28px 50px;
+    }
+}
+
+/* ---------- MOBILE: dưới 768px ---------- */
+@media (max-width: 767px) {
+    .page-wrap {
+        padding: 18px 16px 50px;
+    }
+    .chapter-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .progress-note {
+        text-align: left;
+    }
+    h1.chapter-title {
+        font-size: 22px;
+    }
+    .lesson-item {
+        flex-wrap: wrap;
+        padding: 14px 16px;
+    }
+    .lesson-status {
+        order: 3;
+    }
+    .more-menu {
+        right: 16px;
+    }
+}
